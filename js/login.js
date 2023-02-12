@@ -17,9 +17,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
 
     // step-4: verify email & password 
     if(email === 'sontan@baap.com' &&  password === 'secret'){
-        console.log('valid user');
+      window.location.href = 'bank.html';
     }
     else {
-        console.log('invalid user');
+      alert('Tui password vula gasos !!!Toka ame teijjo sontan gosona korlam');
     }
 })
